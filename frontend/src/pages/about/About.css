@@ -1,0 +1,55 @@
+/* .aboutImg{
+    margin:0;
+    padding:0;
+    font-family: 'Lora', serif;
+    background:no-repeat;
+    background-size:contain;
+    background-position: center; 
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    
+} 
+
+
+.container{
+    
+    position:relative;
+
+}
+    
+     */
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    
+    
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    height:75vh;
+    width:30%;
+    background: rgba(0,0,0,.6);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 10px;
+  }
+
+  .centered h1{
+    font-family: 'Oswald', sans-serif;
+      color:cornsilk;
+      margin-top: 95px;
+  }
+  .centered p{
+    font-family: 'Josefin Sans', sans-serif;
+    color:cornsilk;
+    margin-top: 12px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+
+  }
